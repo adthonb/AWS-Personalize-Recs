@@ -1,5 +1,10 @@
 # AWS Personalize recommendations
 
+[![Python 3.14](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)](pyproject.toml)
+[![uv](https://img.shields.io/badge/uv-DE5FE9?logo=uv&logoColor=white)](https://docs.astral.sh/uv/)
+[![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-FF9900?logo=awslambda&logoColor=white)](#package-for-lambda)
+[![AWS Personalize](https://img.shields.io/badge/AWS-Personalize-FF9900?logo=awspersonalize&logoColor=white)](https://docs.aws.amazon.com/personalize/latest/dg/what-is-personalize.html)
+
 Two Python Lambda handlers serve item recommendations through API Gateway:
 
 - `lambda-api-personalize.py` calls an existing Amazon Personalize campaign.
