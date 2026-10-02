@@ -1,0 +1,12 @@
+[project]
+name = "aws-personalize-recs"
+version = "0.1.0"
+description = "Lambda handlers for Amazon Personalize and RDS recommendation lookups"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "boto3>=1.43.107,<2",
+    "mysql-connector-python>=26.7.0,<27",
+]
+
+[tool.uv]
+package = false
